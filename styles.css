@@ -1,0 +1,64 @@
+/*Simple CSS Reset
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+header {
+}
+
+.main-menu-container {
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: .95;
+}
+  
+.main-menu {
+    margin: 0 auto;
+    max-width: 800px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #aeaeae;
+    /* Alternative: color: rgb(174, 174, 174); */
+    line-height: 24px;
+    height: 50px;
+}
+
+/*.main-menu li {
+}*/
+
+.menu-item:hover {
+    color: whitesmoke;
+    opacity: .8;
+    transition: opacity 0.3s cubic-bezier(0.25, 1, 0.25, 1);
+    transition: color  0.3 s cubic-bezier(0.25, 1, 0.25, 1);
+
+}
+
+.menu-item {
+    cursor: pointer;
+    opacity: 1;
+    color: #aeaeae;
+    transition: opacity 0.3s cubic-bezier(0.25, 1, 0.25, 1);
+    transition: color  0.3 s cubic-bezier(0.25, 1, 0.25, 1);
+}
+  
+.menu-icon {
+    height: 24px;
+}
