@@ -1,0 +1,165 @@
+:root
+
+/*Simple CSS Reset
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+*/
+/*.main-banner {
+    height: 100vh;
+    min-height: 800vh;
+    background-image: url(./assets/goofy-photoshop.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-title {
+    padding-top: 550px;
+    text-align: center;
+    font-size: 72px;  
+    letter-spacing: 1px;  
+    text-shadow: 1px 1px 6px lightgray
+}
+
+banner-p {
+    text-align: center;
+    max-width: 450px;
+    border: 5px solid yellow;
+    font-size: 36px;
+    text-shadow: 1px 1px 6px lightgray
+}*/
+
+header, h1 {
+    background-color: whitesmoke;
+    text-align: center;
+    flex: space-between;
+    opacity: .8;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    overflow: center;
+    margin-top: 20px;
+}
+
+h2 {
+    background-color: rgb(230, 205, 173);
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    opacity: .8;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*Components*/
+.button-outline-white {
+    color: whitesmoke;
+    background: none;
+    border: 2px solid white;
+    font-size: 16px;
+    padding: 14px;
+    margin: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button-outline-white:hover {
+    background-color: whitesmoke;
+
+}
+
+
+/* Top Nav Menu */
+.main-menu-container {
+    background-color: #333333;
+    position: auto;
+    top: 0;
+    /*width: 100vw;*/
+    opacity: .95;
+}
+  
+.main-menu {
+    margin: 0 auto;
+    max-width: 1000px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #aeaeae;
+    /* Alternative: color: rgb(174, 174, 174); */
+    line-height: 24px;
+    height: 50px;
+}
+
+/*.main-menu li {
+}*/
+
+.menu-item:hover {
+    color: whitesmoke;
+    opacity: .8;
+    transition: opacity 0.3s cubic-bezier(0.25, 1, 0.25, 1);
+    transition: color  0.3 s cubic-bezier(0.25, 1, 0.25, 1);
+
+}
+
+.menu-item {
+    cursor: pointer;
+    opacity: 1;
+    color: #aeaeae;
+    transition: opacity 0.3s cubic-bezier(0.25, 1, 0.25, 1);
+    transition: color  0.3 s cubic-bezier(0.25, 1, 0.25, 1);
+}
+  
+.menu-icon {
+    height: 36px;
+    color: rgb(0, 185, 192);
+}
+
+.button-outline {
+    background-color: rgb(0, 185, 192);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.main-services {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #333333;
+    font-size: 16px;
+}
+
+.footer-product-links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px 25px;
+}
